@@ -1,7 +1,7 @@
 
 Tampermonkey脚本
 
-```mysql
+```js
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
@@ -31,8 +31,8 @@ $(".sbo-nav-top").remove();
 $(".interface-controls-top").remove();
 $(".sbo-nav-bottom").remove();
 $("#js-subscribe-nag").remove();
+```js
 
 
-```mysql
 
 加上chrome插件，打印（打印当前网页），https://chrome.google.com/webstore/detail/idfnpgjblkahngbondojabhffkkdekbd?utm_source=chrome-app-launcher-info-dialog
